@@ -109,10 +109,10 @@
 			<h1
 				class="mx-auto max-w-4xl font-heading text-4xl font-bold uppercase md:text-6xl lg:text-7xl xl:text-7xl"
 			>
-				Starter Sveltekit
+				Starter Template
 			</h1>
 			<p class="mx-auto mt-4 max-w-xl text-lg md:mt-10 md:text-2xl">
-				A starting point for a new SvelteKit website.
+				A starting point for a new website.
 			</p>
 			<div class="mt-8 md:mt-16">
 				<a

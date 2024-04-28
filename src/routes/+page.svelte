@@ -6,7 +6,7 @@
 </script>
 
 <Seo
-	title="Starter SvelteKit"
+	title="Starter Template"
 	description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quae laudantium suscipit illum aspernatur iure incidunt unde illo, nihil voluptatem officia dicta similique maxime quisquam alias tempora molestias. Minima, numquam!"
 	og={{
 		image: '/img/northern-lights.jpg'
