@@ -3,6 +3,8 @@
 	import NProgress from '$components/common/NProgress.svelte';
 	import DevToolbar from '$components/dev/DevToolbar.svelte';
 	import '../app.pcss';
+	// Supports weights 100-900
+	import '@fontsource-variable/inter';
 </script>
 
 <NProgress />

@@ -17,8 +17,8 @@ const config = {
 				}
 			},
 			fontFamily: {
-				body: ['Source Code Pro Variable', 'sans-serif'],
-				heading: ['Source Code Pro Variable', 'sans-serif']
+				body: ['Inter Variable', 'sans-serif'],
+				heading: ['Inter Variable', 'sans-serif']
 			}
 		}
 	},

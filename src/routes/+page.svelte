@@ -5,9 +5,10 @@
 </script>
 
 <Hero />
-<Container as="section" class="!pt-0">
-	<!-- Your success is our passion -->
-	<div class="mt-12 grid grid-cols-1 items-center gap-20 py-10 lg:mt-24 lg:grid-cols-2 lg:pb-20">
+<Container class="!pt-0">
+	<section
+		class="mt-12 grid grid-cols-1 items-center gap-20 py-10 lg:mt-24 lg:grid-cols-2 lg:pb-20"
+	>
 		<div>
 			<h2 class="mt-4 text-4xl font-bold tracking-tight text-stone-800 lg:text-3xl">Lorem Ipsum</h2>
 			<div class="mt-6 leading-7">
@@ -21,19 +22,16 @@
 		<img
 			sizes="(min-width: 1024px) 50vw, 100vw"
 			class="mt-4 rounded-lg shadow-md shadow-stone-800/50"
-			src="/img/desert.jpg"
-			alt="Desert landscape"
+			src="/img/northern-lights.jpg"
+			alt="Northern lights"
 		/>
-	</div>
-	<!-- second section -->
-
-	<!-- Davines Creative School -->
-	<div class="grid grid-cols-1 items-center gap-20 py-10 lg:grid-cols-2 lg:pb-20 lg:pt-40">
+	</section>
+	<section class="grid grid-cols-1 items-center gap-20 py-10 lg:grid-cols-2 lg:pb-20 lg:pt-40">
 		<img
 			sizes="(min-width: 1024px) 50vw, 100vw"
 			class="order-last mt-4 rounded-lg shadow-md shadow-stone-800/50 lg:order-first"
 			src="/img/mountains.jpg"
-			alt="salon with many chairs"
+			alt="Mountains"
 		/>
 		<div>
 			<h2 class="mt-4 text-4xl font-bold tracking-tight text-stone-800 lg:text-3xl">Lorem Ipsum</h2>
@@ -50,6 +48,26 @@
 				</p>
 			</div>
 		</div>
-	</div>
+	</section>
+	<section
+		class="mt-12 grid grid-cols-1 items-center gap-20 py-10 lg:mt-24 lg:grid-cols-2 lg:pb-20"
+	>
+		<div>
+			<h2 class="mt-4 text-4xl font-bold tracking-tight text-stone-800 lg:text-3xl">Lorem Ipsum</h2>
+			<div class="mt-6 leading-7">
+				<p class="prose">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quae laudantium
+					suscipit illum aspernatur iure incidunt unde illo, nihil voluptatem officia dicta
+					similique maxime quisquam alias tempora molestias. Minima, numquam!
+				</p>
+			</div>
+		</div>
+		<img
+			sizes="(min-width: 1024px) 50vw, 100vw"
+			class="mt-4 rounded-lg shadow-md shadow-stone-800/50"
+			src="/img/desert.jpg"
+			alt="Desert landscape"
+		/>
+	</section>
 </Container>
 <CallToAction />
