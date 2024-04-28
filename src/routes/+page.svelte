@@ -1,9 +1,17 @@
 <script lang="ts">
+	import Seo from '$components/common/SEO.svelte';
 	import Container from '../components/common/Container.svelte';
 	import CallToAction from './CallToAction.svelte';
 	import Hero from './Hero.svelte';
 </script>
 
+<Seo
+	title="Starter SvelteKit"
+	description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quae laudantium suscipit illum aspernatur iure incidunt unde illo, nihil voluptatem officia dicta similique maxime quisquam alias tempora molestias. Minima, numquam!"
+	og={{
+		image: '/img/northern-lights.jpg'
+	}}
+/>
 <Hero />
 <Container class="!pt-0">
 	<section
