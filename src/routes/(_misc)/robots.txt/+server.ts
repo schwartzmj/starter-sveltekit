@@ -8,7 +8,10 @@ export const GET = async (event): Promise<Response> => {
 		'Content-Type': 'text/plain; charset=utf-8'
 	};
 
-	return new Response(`User-agent: *\nDisallow:\n\nSitemap: ${SITE_CONFIG.host}/sitemap.xml`, {
-		headers: headers
-	});
+	return new Response(
+		`User-agent: *\nDisallow:\n\nSitemap: https://${SITE_CONFIG.host}/sitemap.xml`,
+		{
+			headers: headers
+		}
+	);
 };

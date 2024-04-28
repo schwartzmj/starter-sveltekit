@@ -9,7 +9,7 @@ function formatStaticPages(event: RequestEvent) {
 	)
 		.map((page) =>
 			page
-				.replace('/src/routes', SITE_CONFIG.host)
+				.replace('/src/routes', 'https://' + SITE_CONFIG.host)
 				.replace('/+page.svelte', '')
 				.replace('/+page.md', '')
 		)
