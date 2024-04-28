@@ -1,3 +1,4 @@
+import { SITE_CONFIG } from '$lib/site-config.js';
 import type { RequestEvent } from '@sveltejs/kit';
 
 const STATIC_PAGES = Object.keys(import.meta.glob('/src/routes/**/+page.(svelte|md)'));
@@ -8,7 +9,7 @@ function formatStaticPages(event: RequestEvent) {
 	)
 		.map((page) =>
 			page
-				.replace('/src/routes', event.url.origin)
+				.replace('/src/routes', SITE_CONFIG.host)
 				.replace('/+page.svelte', '')
 				.replace('/+page.md', '')
 		)
@@ -42,7 +43,7 @@ export const GET = async (event): Promise<Response> => {
       xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
     >
       <url>
-        <loc>${event.url.origin}</loc>
+        <loc>${SITE_CONFIG.host}</loc>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
         <lastmod>${`${new Date().toISOString()}`}</lastmod>
