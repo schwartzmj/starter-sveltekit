@@ -43,7 +43,7 @@ export const GET = async (event): Promise<Response> => {
       xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
     >
       <url>
-        <loc>${SITE_CONFIG.host}</loc>
+        <loc>https://${SITE_CONFIG.host}</loc>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
         <lastmod>${`${new Date().toISOString()}`}</lastmod>
