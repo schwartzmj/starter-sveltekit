@@ -57,9 +57,7 @@
 			</div>
 		</div>
 	</section>
-	<section
-		class="mt-12 grid grid-cols-1 items-center gap-20 py-10 lg:mt-24 lg:grid-cols-2 lg:pb-20"
-	>
+	<section class="grid grid-cols-1 items-center gap-20 py-10 lg:mt-24 lg:grid-cols-2 lg:pb-20">
 		<div>
 			<h2 class="mt-4 text-4xl font-bold tracking-tight text-stone-800 lg:text-3xl">Lorem Ipsum</h2>
 			<div class="mt-6 leading-7">
