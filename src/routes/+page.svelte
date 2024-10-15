@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Seo from '$components/common/SEO.svelte';
+	import Seo from '$components/common/Seo.svelte';
 	import Container from '../components/common/Container.svelte';
 	import CallToAction from './CallToAction.svelte';
 	import Hero from './Hero.svelte';

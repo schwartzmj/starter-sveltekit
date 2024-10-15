@@ -21,7 +21,7 @@
 	let splideEle: HTMLElement;
 
 	onMount(() => {
-		new Splide(splideEle, {
+		const splide = new Splide(splideEle, {
 			type: 'fade',
 			rewind: true,
 			speed: 7000,
@@ -29,6 +29,10 @@
 			interval: 4000,
 			arrows: false
 		}).mount();
+
+		return () => {
+			splide.destroy(true);
+		};
 	});
 </script>
 
